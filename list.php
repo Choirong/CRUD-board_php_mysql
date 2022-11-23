@@ -1,14 +1,15 @@
 <?php
     #목록만 보여주는 파일
     include "lib.php";
+
 ?>
 
 <table width=800 border="1">
     <tr>
-        <th> Num </th>
+        <th width=50 > Num </th>
         <th> 제목 </th>
-        <th> 작성자 </th>
-        <th> 작성일 </th>
+        <th width=100 > 작성자 </th>
+        <th width=100 > 작성일 </th>
     </tr>
 
 <?php
@@ -20,10 +21,10 @@
 ?>
 
     <tr>
-        <td> <?php=$data['idx']?> </td>
-        <td> <?php=$data['subject']?> </td>
-        <td> <?php=$data['name']?> </td>
-        <td> <?php=substr($data[regdate], 0, 10)?> </td>
+        <td> <?=$data['idx']?> </td>
+        <td> <a href="view.php?idx=<?=$data['idx']?>"><?=$data['subject']?></a> </td>
+        <td> <?=$data['name']?> </td>
+        <td> <?=substr($data['regdate'], 0, 10)?> </td>
     </tr>
 
 <?php } ?>
