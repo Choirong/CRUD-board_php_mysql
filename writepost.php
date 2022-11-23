@@ -21,10 +21,21 @@
  
 
     if($idx){
-        $query = "UPDATE cdh_board set 'name'='$name',
-        'subject'='$subject',
-        'memo'='$memo',
-        where 'idx'='$idx' ";
+        // $query = "set sql_safe_updates=0";
+        // mysqli_query($connect, $query);
+
+        // $query = "UPDATE 'cdh_board' SET 'subject'='$subject', 
+        // 'name'='$name', 
+        // 'memo'='$memo' WHERE 'idx'='$idx'";
+
+        $query = "UPDATE `cdh_board` SET `subject` = '$subject', 
+        `name` = '$name', 
+        `memo` = '$memo' WHERE `idx` = '$idx'";
+
+        // $query = "UPDATE INTO cdh_board(name, subject, memo, regdate, ip)
+        //     VALUES ('$name', '$subject', '$memo', '$regdate', '$ip')
+        //     WHERE idx='$idx'";
+
 
         // echo $query;
         // exit;
