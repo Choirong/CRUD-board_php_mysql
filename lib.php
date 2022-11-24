@@ -6,7 +6,7 @@
     
     // #mysql 접속 중 에러가 발생했을 경우
     if(mysqli_connect_error()){
-        echo "mysql 접속 중 오류가 발생했습니다.";
+        echo "mysql 접속 중 오류가 발생";
         echo mysqli_connect_error;
     }
 ?>

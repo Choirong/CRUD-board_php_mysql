@@ -1,5 +1,5 @@
 <?php
-    #검색
+    #검색(아직 미구현)
     include "lib.php";
 ?>
 

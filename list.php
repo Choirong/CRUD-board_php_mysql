@@ -12,9 +12,6 @@
 <!-- <form method="get" action="search.php">
     <div id="logo" style="width:100%; text-align:center"><h1>최동현's To Do list</h1></div>
 	<select name="cate" id="search_opt" onchange="info()">
-            <option value=title>제목</option>
-            <option value=content>내용</option>
-            <option value=name>작성자</option>
 	</select>
 	<input class=textform type=text name=search id="search_box" autocomplete="off" placeholder="제목을 입력하세요." required>
 	<input class=submit type=submit value=검색>
