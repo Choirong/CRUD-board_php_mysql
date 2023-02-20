@@ -1,4 +1,4 @@
-최동현의 할일 기록하는 Board-Web
+#최동현의 할일 기록하는 Board-Web
 
 ![최동현 할일 메모장](https://user-images.githubusercontent.com/89922415/220163506-b024793a-3010-4ebb-bf89-3aee9b4db5f0.JPG)
 
