@@ -1,6 +1,4 @@
-# board_php_mysql
-
-### 프로젝트명 : 최동현's 할일 기록하는 Web
+최동현의 할일 기록하는 Board-Web
 
 ![최동현 할일 메모장](https://user-images.githubusercontent.com/89922415/220163506-b024793a-3010-4ebb-bf89-3aee9b4db5f0.JPG)
 
